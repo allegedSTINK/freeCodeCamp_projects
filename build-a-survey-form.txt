@@ -1,0 +1,135 @@
+** start of undefined **
+
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+  </head>
+
+  <body>
+    <h1 class="head" id="title">Survey</h1>
+    <p class="head" id="description">This is a friendly survey</p>
+    <form id="survey-form" action="freecodecamp.com">
+      <fieldset>
+        <label id="name-label">Full name: </label><br>
+        <input id="name" type="text" required 
+        placeholder="John Doe"/><br>
+
+        <label id="email-label">Email: </label><br>
+        <input id="email" type="email" required 
+        placeholder="jdoe@mail.com"/><br>
+
+        <label id="number-label">Age: </label><br>
+        <input id="number" type="number" required min="1" max="999" 
+        placeholder="69"/>
+      </fieldset>
+      
+      <fieldset>
+        <label for="dropdown">What is your favorite color? </label>
+        <select class="favcolor" id="dropdown" type="select">
+          <option value="">Choose one</option>
+          <option value="red">Red</option>
+          <option value="orange">Orange</option>
+          <option value="yellow">Yellow</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+          <option value="indigo">Indigo</option>
+          <option value="violet">Violet</option>
+        </select>  
+      </fieldset>
+
+      <fieldset>
+        <p>Are you happy? </p>
+        <input id="happy" type="radio" name="happy" value="y" />
+        <label for="happy">Yes!</label><br>
+        <input id="happy" type="radio" name="happy" value="n" />
+        <label for="happy">No!</label><br> 
+      </fieldset>
+
+      <fieldset>
+        <label id="diary">How are you today? </label>
+        <textarea id="diary" type="text" min="0" max="999"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <p>Did you learn something today?</p>
+        <input id="refer" type="checkbox" name="refer" value="y" />
+        <label for="refer">Yes!</label><br>
+        <input id="refer" type="checkbox" name="refer" value="n" />
+        <label for="refer">No!</label><br>
+      </fieldset>
+
+      <input class="submit" id="submit" type="submit" value="Submit" />  
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: lightgrey;
+  width: 400px;
+  min-width: auto;
+  text-align: left;
+  margin: 1em 10%;
+  font-family: Sans-Serif;
+}
+
+fieldset {
+  border-style: solid none none none;
+  border-width: 5px;
+  border-color: grey;
+  margin: 5% auto;
+  padding-top: 8%;
+}
+
+.head {
+  text-align: center;
+}
+
+h1 {
+  font-size: 45;
+  margin-bottom: .25;
+}
+
+.submit {
+  margin-left: 1em;
+}
+
+.favcolor {
+  padding: .5%
+}
+
+input[type="text"], input[type="email"] {
+  padding: .5%;
+  margin: 1% 0;
+  box-sizing: border-box;
+  width: 50%
+}
+
+input[type="number"] {
+  padding: .5%;
+  margin: 1% 0;
+  box-sizing: border-box;
+  width: 15%
+}
+
+textarea {
+  margin: 1% 0;
+  box-sizing: border-box;
+  height: 150px;
+  width: 95%;
+}
+
+label {
+  margin: auto .5%
+}
+
+** end of undefined **
+

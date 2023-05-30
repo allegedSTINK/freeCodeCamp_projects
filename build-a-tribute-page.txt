@@ -1,0 +1,256 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <main id="main">
+
+      <!--Title Below--> 
+
+          <div id="title" class="title">
+            <h1>J.R.R. Tolkien</h1>
+            <p>~ The Father of Fantasy ~</p>
+          </div> 
+
+      <div class="quote-and-portrait-container">
+       
+  <!--Quote Below-->
+        
+          <div id="quote1" class="quote1">  
+            <p class="italic">All that is gold does not glitter,</p>
+            <p class="indent italic">Not all those who wander are lost;</p>
+            <p class="italic">The old that is strong does not wither,</p>
+            <p class="indent italic">Deep roots are not reached by the frost.</p>
+            <p class="italic">From the ashes a fire shall be woken,</p>
+            <p class="indent italic">A light from the shadows shall spring;</p>
+            <p class="italic">Renewed shall be blade that was broken,</p>
+            <p class="indent italic">The crownless again shall be king.</p>
+            <p class="citation">(R. et al. 167) * </p>
+          </div>  
+
+  <!--Portrait and Caption Below-->
+
+        <figure id="img-div" class="portrait-and-caption">
+          <img id="image" class="portrait" src="https://www.tolkiensociety.org/app/uploads/2016/11/pamela_chandler_tolkien1-290x366.jpg" />
+          <figcaption id="img-caption" class="fig-caption">Photo by Pamela Chandler. © Diana Willson</figcaption>
+        </figure>
+
+      </div> 
+      
+  <!-- I know it looks messy but it's starting to workout so deal with it :P -->
+
+  <!-- Timeline data-points below -->
+
+      <div id="tribute-info" class="timeline-container">
+        <ul class="timeline">
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">3 January 1892:</span><span class="date-desc">John Ronald Reuel Tolkien was born in Bloemfontein, S.A. to Arthur Reuel Tolkien and Mabul Suffield</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">15 February 1896:</span><span class="date-desc">Ronald's Father, Arthur dies, and he, his mother and Hilary, his brother, return to the West Midlands (England)</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">14 November 1904:</span><span class="date-desc">Mabel Tolkien develops diabetes and dies. The orphaned boys were ultimately fostered by Father Francis. By this time Ronald had mastered Latin and Greek, and was working on Gothic and Finnish</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">Summer, 1911:</span><span class="date-desc">Rekindles chastised love with Edith Bratt, whom he met while boarding with a Mrs. Faulkner</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">1913:</span><span class="date-desc">Obtains a second class degree in Honour Moderations from Oxford. He changes school from Classics to English Language and Literature</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">22 March 1916:</span><span class="date-desc">Marries Edith at Great Haywood in Staffordshire. Afterwards, he was deployed to France just in time to participate in the Somme Offensive. There, after hanging out in the mud of trench warfare for 4 months, he developed "trench fever". However, after being sent back to England in November, he recovered enough by Christmas to stay with Edith back in Great Haywood</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">11 November 1918:</span><span class="date-desc">Armistice signed; Tolkien appointed Assistant Lexicographer on the New English Dictionary. During this time he publically read 'The Fall of Gondolin' to the Exeter College Essay Club, and they liked it</span></p>
+          </li>         
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">1925:</span><span class="date-desc">Tolkien successfully applies for the  newly vacant Rawlinson and Bosworth Professorship of Anglo-Saxon at Oxford</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">1937:</span><span class="date-desc">The Hobbit was published</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">1954-1955:</span><span class="date-desc">The Lord of the Ring was published in three parts</span></p>
+          </li>  
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">1968:</span><span class="date-desc">The Lord of the Rings becomes the Bible of 'Alternative Society</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">29 November 1971:</span><span class="date-desc">Edith passes away in Bournemouth. Ronald returns to Oxford</span></p>
+          </li>
+          <li class="timeline-date">
+            <p class="timeline-align"><span class="bold-padding">2 September 1973:</span><span class="date-desc">John Ronald Reuel Tolkien dies and is buried with Edith in a single grave in Wolvercote cemetery, located in the northern suburbs of Oxford</span></p>
+          </li>
+        </ul>
+      </div>
+
+      <footer class="tribute-link">
+        <p class="small-text">*R., Tolkien J R, and Tolkien J R R. “Strider.” The Fellowship of the Ring: Being the First Part of the Lord of the Rings, Houghton Mifflin Harcourt, Boston, MA, 2014, pp. 167</p>
+        <p>For more information on this mythic chad, please visit <a id="tribute-link"  href="https://www.tolkiensociety.org/" target="_blank">The Tolkien Society</p></a></footer>
+      
+    </main>
+
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: black;
+  color: white;
+  font-family: verdana, sans;
+  font-size: 22;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main {
+  margin: auto;
+  width: 1250px;
+
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: -10;
+  /* border: 3px solid */
+}
+
+.title > p {
+  font-size: 1.75rem;
+  /* border: 3px solid */
+}
+
+.quote-and-portrait-container {
+  background-color: black;
+  min-width: 1250px;
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid */
+  }
+
+.portrait-and-caption {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.fig-caption {
+  font-size: .75rem;
+  opacity: .35;
+  padding: 0 12;
+}
+
+.portrait {
+  /* border: 3px solid; */
+  width: 500;
+  max-width: 100%;
+  aspect-ratio: 3/4;
+}
+
+/* Below is for the MLA cited quote in the heading element*/
+
+.quote1 {
+  font-size: 1.25rem;
+  /* border: 3px solid */
+  width: 450px;
+  height: auto;
+  text-align: center;
+  margin-top: 25;
+  margin-left: -50;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 50px;
+  
+}
+
+.italic {
+  font-style: italic;
+}
+
+.indent {
+  text-indent: 15;
+  padding-bottom: 45;
+}
+
+.citation {
+  font-size: .75rem;
+  text-align: center;
+  margin-top: -25;
+}
+
+.quote1 > p {
+  margin-bottom: -15;
+}
+
+/* Title CSS Below */
+
+.title {
+  text-align: center;
+}
+
+/* Timeline Date-points */
+
+.timeline-container {
+  width: 1250px;
+  margin-top: -25px
+}
+
+.timeline-date {
+  list-style-type: none;
+  padding-bottom: 12.5;
+}
+
+.bold-padding{
+  font-weight: bold;
+  padding-bottom: 1rem;
+
+}
+
+.timeline-align > span {
+  display: flex;
+  content-align:
+}
+
+.date-desc {
+  padding-left: 1rem
+}
+
+/* Tribute Link Below */
+
+.tribute-link {
+  text-align: center;
+  margin: 5rem auto;
+  font-size: 1rem;
+}
+
+.small-text {
+  font-size: .5rem;
+}
+
+/* Links Hover */
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+** end of undefined **
+
